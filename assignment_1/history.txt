@@ -1,0 +1,135 @@
+    1  exit
+    2  \cita\local\bin\passwd
+    3  cd \cita\local\bin\passwd
+    4  cd /cita/local/bin/passwd
+    5  cd /cita/local/bin/
+    6  passwd
+    7  ssh student6@gw.cita.utoronto.ca \cita\local\bin\passwd
+    8  passwd
+    9  exit
+   10  ssh student6@gw.cita.utoronto.ca
+   11  exit
+   12  ssh cosmo4
+   13  pwd
+   14  cd cd /mnt/scratch-lustre/
+   15  cd /mnt/scratch-lustre/
+   16  ls
+   17  cd mdobbs
+   18  ls -la
+   19  cd ..
+   20  cd fishbach
+   21  ls -la
+   22  cd ..
+   23  cd student6
+   24  ls -la
+   25  ls -l
+   26  cd ..
+   27  cd mnt
+   28  cd student6
+   29  mkdir pictures
+   30  ls
+   31  cp /mnt/scratch-lustre/cta200/2016/Pictures/Montreal_City_720x480.jpg .
+   32  ls
+   33  mv Montreal_City_720x480.jpg Montreal.jpg
+   34  ls
+   35  mv Montreal{,_City}.jpg
+   36  ls
+   37  rm Montreal_City.jpg
+   38  ls
+   39  rsync -avP /mnt/scratch-lustre/cta200/2016/Pictures/Toronto .
+   40  ls
+   41  ls Toronto
+   42  rsync -avP /mnt/scratch-lustre/cta200/2016/Pictures/ .
+   43  ls
+   44  ls pictures
+   45  ls rsync -avP /mnt/scratch-lustre/cta200/2016/Pictures .
+   46  rsync -avP /mnt/scratch-lustre/cta200/2016/Pictures .
+   47  ls
+   48  rmdir pictures
+   49  ls
+   50  ls pictures
+   51  ls Pictures
+   52  rm -rf london
+   53  rm -rf pictures
+   54  ls
+   55  rm -rf London
+   56  ls
+   57  rm -rf Pcitres
+   58  rm -rf Pictures
+   59  ls
+   60  cd mnt/
+   61  cd mnt
+   62  pwd
+   63  cd
+   64  pwd
+   65  cd /mnt/stract-lustre/student6/
+   66  cd /mnt/stratch-lustre/student6/
+   67  cd /mnt/stratch-lustre/
+   68  cd /mnt/
+   69  pwd
+   70  ls
+   71  cd scratch-lustre/
+   72  ls
+   73  cd bond
+   74  ls 
+   75  cd ..
+   76  cd student6
+   77  pwd
+   78  mkdir CTA200_2024
+   79  cd CTA200_2024
+   80  mkdir assignment_1
+   81  ls
+   82  cd ..
+   83  ls
+   84  cd ..
+   85  ls
+   86  cd student6/CTA200_2024/
+   87  touch README.md
+   88  ls
+   89  vi README.md
+   90  cat README.md
+   91  cd ..
+   92  ls
+   93  cd murray
+   94  ls
+   95  find Hello_world.c
+   96  man find
+   97  find -name "Hello_world.c"
+   98  ls
+   99  history
+  100  history | grep ssh
+  101  find pwd
+  102  pwd
+  103  find /mnt/scratch-lustre/murray -name "Hello_world.c"
+  104  find ./ -name Hello_world.c
+  105  cd ~
+  106  pwd
+  107  cd /home/murray
+  108  pwd
+  109  ls
+  110  cp Hello_world.c /mnt/scratch-lustre/student6/
+  111  cp Hello_world.py /mnt/scratch-lustre/student6/
+  112  cd /mnt/scratch-lustre/student6/
+  113  ls
+  114  mv Hello_world.c CTA200_2024/assignment_1
+  115  mv Hello_world.py CTA200_2024/assignment_1
+  116  cd CTA200_2024
+  117  cd assignment_1
+  118  ls
+  119  mv Hello_world.c Hello_world_Meng.c
+  120  mv Hello_world.py Hello_world_Meng.py
+  121  gcc Hello_world_Meng.c -o Hello_world.c
+  122  ./Hello_world.c
+  123  gcc Hello_world_Meng.py -o Hello_world.py
+  124  mv Hello_world.c Hello_world.x
+  125  ./Hello_world.x
+  126  python Hello_world.py
+  127  python Hello_world_Meng.py
+  128  vi Hello_world_Meng.py
+  129  vi Hello_world_Meng.c
+  130  python Hello_world_Meng.py
+  131  gcc Hello_world_Meng.c -o Hello_world.x
+  132  ./Hello_world.x
+  133  ./Hello_world.x > output_c.txt
+  134  python Hello_world_Meng.py > output_python.txt
+  135  history > history.txt
